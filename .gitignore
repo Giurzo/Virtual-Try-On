@@ -1,0 +1,14 @@
+# exclude everything except directory foo/bar
+/dataset/*
+/dataset
+/venv/*
+/venv
+**/*.png
+**/*.jpg
+!img/*
+**/*.pyc
+**/*.tar
+**/*.pth
+**/*.pth.tar
+**/*.zip
+tensorboard/
